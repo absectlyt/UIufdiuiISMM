@@ -33,10 +33,6 @@ pull_request_rules:
   #       - -body~=https://github.com/zilliztech/GPTCache/issues/[0-9]{1,6}(\s+|$)
   #     - -label=kind/improvement
   #     - -title~=\[automated\]
-  #   actions:
-  #     label:
-  #       add:
-  #         - do-not-merge/missing-related-issue
   #     comment:
   #       message: |
   #         @{{author}} Please associate the related issue to the body of your Pull Request.  (eg. “issue: #<xyz>”)
